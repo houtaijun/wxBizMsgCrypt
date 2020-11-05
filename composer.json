@@ -1,0 +1,16 @@
+{
+    "name": "houtaijun/wx-biz-msg-crypt",
+    "type": "library",
+    "description": "WeChat BizMsgCrypt library",
+    "version": "0.0.1",
+    "homepage": "https://open.weixin.qq.com",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3"
+    },
+    "autoload": {
+        "files": [
+            "src/wxBizMsgCrypt.php"
+        ]
+    }
+}
