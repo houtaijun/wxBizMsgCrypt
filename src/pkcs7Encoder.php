@@ -82,6 +82,8 @@ class Prpcrypt
 			//获得16位随机字符串，填充到明文之前
 			$random = $this->getRandomStr();
 			$text = $random . pack("N", strlen($text)) . $text . $appid;
+			$pkc_encoder = new PKCS7Encoder;
+                        $text = $pkc_encoder->encode($text);
 			$iv = substr($this->key, 0, 16);
 			$encrypted = openssl_encrypt($text, 'AES-256-CBC', $this->key, OPENSSL_RAW_DATA|OPENSSL_ZERO_PADDING, $iv);
 
