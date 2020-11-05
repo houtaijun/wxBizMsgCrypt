@@ -1,12 +1,12 @@
 {
-    "name": "houtaijun/wxBizMsgCrypt",
+    "name": "houtaijun/wechat-biz-msg-crypt",
     "type": "library",
-    "description": "WeChat BizMsgCrypt library",
+    "description": "微信消息加密和解密，解决原版skd兼容问题",
     "version": "0.0.1",
     "homepage": "https://open.weixin.qq.com",
     "license": "MIT",
     "require": {
-        "php": ">=5.3"
+        "php": ">=7.1"
     },
     "autoload": {
         "files": [
