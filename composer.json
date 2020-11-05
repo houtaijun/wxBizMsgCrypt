@@ -1,5 +1,5 @@
 {
-    "name": "houtaijun/wx-biz-msg-crypt",
+    "name": "houtaijun/wxBizMsgCrypt",
     "type": "library",
     "description": "WeChat BizMsgCrypt library",
     "version": "0.0.1",
